@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: rgba(230, 210, 210, 0.5);
+    margin:20px 20px;
+    text-align: center;
+}
+.loginpage{
+    margin:12% auto 7%;
+    padding: 0;
+    border: 1px solid rgb(239, 239, 245);
+    max-width: 100%;
+    min-width: 500px;
+    width: 30%;
+    background: #fff;
+}
+.header{
+    background-color: aqua;
+    color: #000;
+}
+.formheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: top 8px;
+}
+.image{
+    width:20%;
+    height: 100px;
+    position:center;
+    overflow-y: auto;
+    overflow-x:visible;
+}
+
+.inputs{
+padding: 30px 30px;
+}
+.input1,
+.input2{
+    text-align: left;
+    padding-left: 5px;
+}
+.loginUsername{
+    width: 70%;
+    padding: 5px;
+}
+.loginPassword{
+    width: 70%;
+    padding:5px;
+    margin-top: 20px;
+    margin-bottom:2opx;
+}
+.loginButton{
+    padding: 20px;;
+    width: 100%;
+    border-radius: 15%;
+}
+.signbtn{
+    background-color: aqua;
+    width:70% ;
+    padding: 5px;
+}
+.signbtn a{
+    text-decoration: none;
+
+}
