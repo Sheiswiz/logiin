@@ -6,6 +6,7 @@
     background: rgba(230, 210, 210, 0.5);
     margin:20px 20px;
     text-align: center;
+    font-family: verdana;
 }
 .loginpage{
     margin:12% auto 7%;
@@ -63,4 +64,43 @@ padding: 30px 30px;
 .signbtn a{
     text-decoration: none;
 
+}
+#form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.registration-form {
+    text-align: left;
+    margin-bottom:25px;
+}
+
+
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form input,
+.registration-form select {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+#button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
