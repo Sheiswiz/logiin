@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.body{
+#body{
     background: rgba(230, 210, 210, 0.5);
     margin:20px 20px;
     text-align: center;
@@ -21,6 +21,8 @@
     background-color: aqua;
     color: #000;
     height: 100%;
+    font-size: large;
+
 }
 .formheading{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

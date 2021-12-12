@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    margin:0;
+    margin-left: 28px;
+    margin-bottom: 30px; 
+}
+.myimg{
+   float:left;
+   width: 40px;
+   margin-top: 5px;
+}
+.sidenav {
+    width: 350px;
+    height: 100%;
+    background-color: #555;
+    overflow: auto;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .sidenav a {
+    float: left;
+    text-align: center;
+    padding: 10px 10px 10px 32px;
+    color: rgb(8, 193, 250);
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  
+  .sideanav a:hover {
+    background-color: #000;
+  }
+/*
+.sidenav{
+
+    height: 100vh;
+    width: 300px;
+    top: 0;
+    bottom:0;
+    padding: top 35px;
+    position: fixed;
+    background: color #313131; 
+    z-index: 1;
+*/
+
+
