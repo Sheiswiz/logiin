@@ -2,10 +2,13 @@
     margin:0;
     padding: 0;
 }
-body{
+#body{
     background-color: rgb(27, 27, 27);
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 200px;
+
 }
 .logo{
     margin:0;
@@ -18,25 +21,23 @@ body{
    margin-top: 5px;
 }
 .sidenav {
-    width: 350px;
+    width: 300px;
     height: 100%;
     background-color: #555;
-    overflow: auto;
     position: fixed;
     overflow: hidden;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    top:0;
+    left:0;
+    
   }
   
   .sidenav a {
-    float: left;
     text-align: center;
-    padding: 10px 10px 10px 32px;
+    padding: 20px;
     color: rgb(8, 193, 250);
     text-decoration: none;
     font-size: 17px;
-    display: block;
+    display:inline-block;
     transition: 0.5s;
   }
   
@@ -44,17 +45,5 @@ body{
   .sideanav a:hover {
     background-color: #000;
   }
-/*
-.sidenav{
-
-    height: 100vh;
-    width: 300px;
-    top: 0;
-    bottom:0;
-    padding: top 35px;
-    position: fixed;
-    background: color #313131; 
-    z-index: 1;
-*/
 
 
